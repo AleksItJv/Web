@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sandwiches xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="example2.xsd">
+
+    <ingridients name="taste_and_pretty">
+        <top sort="white-normal">bread</top>
+        <midlle sort="big-holes">cheese</midlle>
+        <midlle sort="salami">sausage</midlle>
+        <midlle>salad</midlle>
+        <bottom>pita</bottom>
+    </ingridients>
+
+    <ingridients name="tasteless_and_ugly">
+        <midlle fresh="look_like">fish</midlle>
+        <midlle>cheese</midlle>
+        <midlle>cucumber</midlle>
+        <midlle sort="pepper_and_strawberry">mayonnaise</midlle>
+        <bottom sort="black_and_blue">bread</bottom>
+    </ingridients>
+
+
+    <ingridients name="uncertain3000">
+        <top>pita</top>
+        <midlle fresh="100% new, was three days ago..." sort="look_like_salmon">fish</midlle>
+        <midlle quantity="1">1</midlle>
+        <bottom>bread</bottom>
+    </ingridients>
+
+    <ingridients name="sand_with_sesame">
+        <decoration sort="sesame"></decoration>
+        <top sort="white_bread">bread</top>
+        <midlle sort="hot_spicy">ketchup</midlle>
+        <midlle sort="sausage">sausage</midlle>
+        <midlle sort="cheese">cheese</midlle>
+        <midlle quantity="3">3</midlle>
+        <bottom sort="white bread">bread</bottom>
+    </ingridients>
+
+    <ingridients name="big_caraway">
+        <decoration sort="caraway"></decoration>
+        <midlle sort="big_cabanos">cabanos</midlle>
+        <bottom sort="black_caraway">bread</bottom>
+    </ingridients>
+
+</sandwiches>
