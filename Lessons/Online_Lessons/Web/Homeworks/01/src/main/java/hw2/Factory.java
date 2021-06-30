@@ -8,11 +8,19 @@ import java.util.List;
 
 @XmlRootElement(name = "factory")
 public class Factory {
-    @XmlElement(name = "candy")
+
     private List<Candy> candyShop= new ArrayList<>();
 
     public void add(Candy candy){
         candyShop.add(candy);
+    }
+
+    public List<Candy> getCandyShop() {
+        return candyShop;
+    }
+    @XmlElement(name = "candy")
+    public void setCandyShop(List<Candy> candyShop) {
+        this.candyShop = candyShop;
     }
 
     @Override

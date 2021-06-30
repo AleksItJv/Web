@@ -1,26 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<factory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:noNamespaceSchemaLocation="factory.xsd">
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factory>
     <candy name="red_bogatyr">
-        <wrapper>color paper</wrapper>
         <cover>chocolate</cover>
         <filler>chocolate</filler>
         <quantity>2</quantity>
+        <wrapper>color paper</wrapper>
     </candy>
-
     <candy name="black_and_white">
-        <wrapper>black cellophane</wrapper>
         <cover>white chocolate</cover>
         <filler>black fondant</filler>
         <quantity>1</quantity>
+        <wrapper>black cellophane</wrapper>
     </candy>
-
     <candy name="karamelka">
-        <wrapper>cellophane</wrapper>
         <cover>caramel</cover>
         <filler>caramel</filler>
         <quantity>6</quantity>
+        <wrapper>cellophane</wrapper>
     </candy>
-
 </factory>
