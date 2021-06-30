@@ -11,9 +11,9 @@ public class Factory {
     @XmlElement(name = "candy")
     private List<Candy> candyShop= new ArrayList<>();
 
-/*    public void add(Candy candy){
+    public void add(Candy candy){
         candyShop.add(candy);
-    }*/
+    }
 
     @Override
     public String toString(){
